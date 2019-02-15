@@ -1,0 +1,36 @@
+body {
+  background: #d1cbcb;
+  color: #746767;
+  position: relative;
+}
+
+body main .img-wrap {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body main article {
+  -webkit-clip-path: circle(85% at 30% 0);
+          clip-path: circle(85% at 30% 0);
+}
+
+body img {
+  -o-border-image: 50%;
+     border-image: 50%;
+  width: 100px;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=main.css.map */
